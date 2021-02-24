@@ -1,0 +1,14 @@
+#pragma hdstop
+// # include <condef.h>
+#include <iostream>
+//# include <conio.h>
+using namespace std;
+#pragma arsed
+int main(){
+	int x ;
+	x = 2147483647 ;
+	cout << "x =" << x < endl ;
+	x = x + 1 ;
+	cout << "x =" << x << endl ;
+	return 0 ;
+}

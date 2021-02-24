@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+int Width ;
+int Lenght ;
+int Area ;
+Area = Width * Lenght ;
+return 0 ;
+}

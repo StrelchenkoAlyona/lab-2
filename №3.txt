@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int Width = 2 ;
+int Length = 3 ;
+int Area ;
+Area = Width * Length ;
+cout << "Area =" << Area << endl ; 
+return 0 ;
+}

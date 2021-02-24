@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int time = 150;
+int clock = time / 60;
+int minute = time % 60:
+cout << "clock = " << clock << endl;
+cout << "minute = " << minute << endl;
+return 0;
+}

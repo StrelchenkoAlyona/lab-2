@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+float S ; 
+float p = 3,14159 ; 
+float r = 4;
+float h = 10 ;
+S = ( p * r * r * h ) / 3 ;
+cout << "S =" << S << endl ;
+return 0 ;
+}

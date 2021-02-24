@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  float month;
+ float amount=25000;
+ float rate=5;
+  int daysyear= 365;
+  int daysmonth=31;
+  month=amount*(rate/100)/daysyear*daysmonth;
+  cout<<month<<"$"<<endl;
+return 0;
+}

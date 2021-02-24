@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int number = 5678;
+cout<< " number = "<< number <<endl;
+int one;
+int onewhole;
+one = number%10;
+onewhole = number/10;
+cout << "one="<<one<<endl;
+int two;
+int twowhole;
+two = onewhole%10;
+twowhle = onewhole/10;
+cout<<"two="<<two<<endl;
+int three;
+int threewhole;
+three = twowhole%10;
+threewhole = twowhole/10;
+cout<<"three="<<three<<endl;
+int four;
+int fourwhole;
+four = threewhole%10;
+cout<<"four="<<four<<endl;
+return 0;
+}
